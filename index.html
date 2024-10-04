@@ -46,7 +46,7 @@ onload=onloadTurnstileCallback" defer></script>
 <div id="myWidget"></div>
 <div id="alert"></div>
 
-<form action="/action_page.php" id="myid" style="display:block">
+<form action="/action_page.php" id="myid" style="display:none">
     <label for="fname">First name:</label><br>
     <input type="text" id="fname" name="fname" value=" "><br>
     <label for="lname">Last name:</label><br>
@@ -69,7 +69,7 @@ onload=onloadTurnstileCallback" defer></script>
     setTimeout(()=> {
     
     document.getElementById("myid").style.display = "block";
-     document.getElementById("myWidget").style.display = "block";
+     document.getElementById("myWidget").style.display = "none";
     
     }, 2000);
     
